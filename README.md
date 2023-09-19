@@ -1,4 +1,5 @@
 # Web 3.0 Project
+## https://blockchain-app-reactjs.pages.dev/
 ![Screenshot_1](https://user-images.githubusercontent.com/92748828/227339001-c27c79e7-e1b7-4f86-973e-b1e77e5804df.png)
 
 This project allows any user to register on the website using their MetaMask wallet and perform transactions to any address in the same network as the user. Using smart contract deployed on Alchemy, each transaction is saved in the local storage and displayed at the bottom of the website with information on the time of sending, the amount of coins, and a comment/gif. By clicking on each transaction at the bottom of the website, the user will be redirected to Etherscan, where they can track all confirmations. The application uses the Goerli test network, but the network can be changed in the hardhat.config.js file.
